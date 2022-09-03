@@ -29,16 +29,16 @@ body {
   max-height: 490px;
 }
 
-.fire {
-  border: 3px dashed rgb(255, 0, 0) !important;
+#meme-image-container.fire {
+  border: 3px dashed red;
 }
 
-.water {
-  border: 5px double rgb(0, 0, 255) !important;
+#meme-image-container.water {
+  border: 5px double blue;
 }
 
-.earth {
-  border: 6px groove rgb(0, 128, 0) !important;
+#meme-image-container.earth {
+  border: 6px groove green;
 }
 
 button {
@@ -48,19 +48,19 @@ button {
   color: white;
   border: none;
   padding: 10px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #fire {
-  background-color: rgb(255, 0, 0);
+  background-color: red;
 }
 
 #water {
-  background-color: rgb(0, 0, 255);
+  background-color: blue;
 }
 
 #earth {
-  background-color: rgb(0, 128, 0);
+  background-color: green;
 }
 
 .miniMeme {
