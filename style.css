@@ -27,3 +27,37 @@ body {
   max-width: 490px;
   max-height: 490px;
 }
+
+.fire {
+  border: 3px dashed rgb(255, 0 , 0) !important;
+}
+
+.water {
+  border: 5px double rgb(0, 0, 255) !important;
+}
+
+.earth {
+  border: 6px groove rgb(0, 128, 0) !important;
+}
+
+button {
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 80px;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#fire {
+  background-color: rgb(255, 0 , 0);
+}
+
+#water {
+  background-color: rgb(0, 0, 255);
+}
+
+#earth {
+  background-color: rgb(0, 128, 0);
+}
