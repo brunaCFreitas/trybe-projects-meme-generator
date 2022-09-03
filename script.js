@@ -13,10 +13,10 @@ const meme4 = document.getElementById('meme-4');
 
 function uploadImage() {
   const reader = new FileReader();
-  reader.onload = (e) => {
+  reader.readAsDataURL(photoInput.files[0]);
+  reader.onloadend = (e) => {
     imagePreview.src = e.target.result;
   };
-  reader.readAsDataURL(photoInput.files[0]);
 }
 
 function previewText() {
